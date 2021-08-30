@@ -1,4 +1,5 @@
 const tail = (array) => {
-    return array.pop();
+    array.pop();
+    return array;
 }
 module.exports = tail;
